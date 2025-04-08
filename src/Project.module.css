@@ -1,0 +1,42 @@
+.project {
+  text-align: center;
+  gap: 20px;
+  background-color: #222831;
+  height: fit-content;
+  align-items: center;
+  font-family: roboto, sans-serif, "Courier New", Courier, monospace;
+  padding-top: 50px;
+}
+
+.project button {
+  padding: 5px 20px 5px 20px;
+  margin: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.skills {
+  color: #eeeeee;
+  background-color: #00adb5;
+  box-shadow: 0 5px 7px rgb(28, 78, 149);
+}
+
+.skills:hover {
+  background-color: #eeeeee;
+  color: #00adb5;
+  cursor: pointer;
+}
+
+.projectstyle {
+  color: #00adb5;
+  background-color: #eeeeee;
+  box-shadow: 0 5px 7px rgb(28, 78, 149);
+}
+.projectstyle:hover {
+  color: #eeeeee;
+  background-color: #00adb5;
+  cursor: pointer;
+}

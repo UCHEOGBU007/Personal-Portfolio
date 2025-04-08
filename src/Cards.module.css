@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+  justify-content: space-between;
+  gap: 20px;
+  background-image: url("/doodleitems.png");
+
+  height: fit-content;
+  opacity: 0.6;
+}
+
+.card {
+  background-color: #393e46;
+  text-align: center;
+  color: rgb(152, 146, 146);
+  margin-top: 4rem;
+  width: 70%;
+  height: 450px;
+  border: none;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.card h4 {
+  color: #eeeeee;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.card p {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 5px 7px 9px #393e46;
+}
+
+.workimages {
+  width: 100%;
+}
+
+.workimages:hover {
+  transform: rotate(-380deg);
+}
+
+@media (max-width: 1300px) {
+  .card {
+    height: fit-content;
+  }
+}

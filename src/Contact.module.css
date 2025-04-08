@@ -1,0 +1,120 @@
+.container {
+  background-color: #222831;
+  color: #eeeeee;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Inner container styles */
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  width: 90%;
+  justify-content: center;
+  gap: 100px;
+}
+
+.container2::before {
+  content: url("/Vcontactpage.png");
+}
+
+.container2::after {
+  content: url("/mailvector.png");
+}
+
+/* Input fields */
+form input,
+form textarea,
+.submit {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: none;
+  background-color: #52575f;
+}
+
+form input {
+  height: 40px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+.submit {
+  background-color: #00adb5;
+  color: #eeeeee;
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #eeeeee;
+  color: #00adb5;
+  box-shadow: 0 1px 2px 3px #00adb5;
+}
+
+/* Contact Icon */
+.contactIcon h5 {
+  font-family: roboto, sans-serif, Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  font-size: 1.5rem; /* Use rem for scalable font sizes */
+  font-weight: bolder;
+  padding: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+  .container2 {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    width: 100%;
+    align-items: center;
+  }
+
+  form {
+    margin-top: 10px;
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  form input,
+  form textarea {
+    width: 90%; /* Full width with slight padding */
+  }
+
+  .submit {
+    width: auto; /* Let the button size adjust dynamically */
+  }
+}
+
+@media (max-width: 600px) {
+  form input,
+  form textarea {
+    width: 100%; /* Expand input fields fully */
+  }
+
+  form textarea {
+    height: 120px; /* Adjust height for small screens */
+  }
+
+  .submit {
+    padding: 8px 15px;
+    font-size: 1rem;
+    width: 100%; /* Adjust button size */
+  }
+
+  .contactIcon h5 {
+    font-size: 1.2rem; /* Reduce font size for smaller devices */
+  }
+}

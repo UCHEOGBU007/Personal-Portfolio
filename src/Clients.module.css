@@ -1,0 +1,56 @@
+.testimonies {
+  text-align: center;
+  background-color: #222831;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.testimonials {
+  color: #eeeeee;
+  font-size: 1rem;
+  font-style: italic;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: solid 2px #00adb5;
+  padding: 10px;
+}
+
+.testimonials h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.testimoniesdesign {
+  background-color: #393e46;
+  color: #eeeeee;
+  animation: floating 10s linear infinite;
+  padding: 20px;
+}
+
+.testimoniesdesign div {
+  color: #00adb5;
+  font-size: 3rem;
+  font-weight: 3rem;
+}
+
+figcaption span {
+  color: #00adb5;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@keyframes floating {
+  0% {
+    transform: translatey(0%);
+  }
+  100% {
+    transform: translatey(30%);
+  }
+}
+
+@media (max-width: 890px) {
+  .testimoniesdesign {
+    width: fit-content;
+    height: fit-content;
+  }
+}
