@@ -23,7 +23,7 @@ export default function Mainsection() {
                 </button>
               </a>
               {/* DOWNLOAD RESUME FILE */}
-              <a href="./assets/images/Resume.pdf" download>
+              <a href="/Resume.pdf" download>
                 <button className={styles.button2}>
                   {" "}
                   Download Resume <FaDownload />
