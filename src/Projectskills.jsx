@@ -30,17 +30,7 @@ export default function Projectskills() {
           <SkillsComponent />
         ) : (
           <SkillsComponent />
-          // <p style={{ fontSize: "1.5rem", marginTop: "30px", opacity: "0.6" }}>
-          //   Click on
-          //   <span style={{ color: "#00ADB5", fontStyle: "italic" }}>
-          //     "Skills"
-          //   </span>{" "}
-          //   OR{" "}
-          //   <span style={{ color: "#00ADB5", fontStyle: "italic" }}>
-          //     "Project"
-          //   </span>
-          //   button
-          // </p>
+         
         )}
       </div>
     </div>
