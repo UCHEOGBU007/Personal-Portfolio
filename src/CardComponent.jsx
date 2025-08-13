@@ -157,10 +157,10 @@ export default function CardComponent() {
         />
         <h4>Little lemon restaurant </h4>
         <p>
-          this is little lemon web app integrated for online food order
-          developed with reactjs and context api for global state, router for
-          seamless navigating through multiple page, css modules and re-usable
-          styling.
+          Little Lemon is a React-based web app for online dining reservations
+          and food ordering. It features global state management via Context
+          API, seamless multi-page navigation with React Router, and modular,
+          reusable CSS styling.
         </p>
         <div
           style={{
