@@ -149,6 +149,41 @@ export default function CardComponent() {
           </a>
         </div>
       </div>
+      <div className={styles.card}>
+        <img
+          className={styles.workimages}
+          src="/Littlelemon.png"
+          alt="project picture "
+        />
+        <h4>Little lemon restaurant </h4>
+        <p>
+          this is little lemon web app integrated for online food order
+          developed with reactjs and context api for global state, router for
+          seamless navigating through multiple page, css modules and re-usable
+          styling.
+        </p>
+        <div
+          style={{
+            display: "flex",
+            textAlign: "center",
+            justifyContent: "space-between",
+            padding: 15,
+          }}
+        >
+          <a href="https://little-lemon-capstone-project-one.vercel.app/">
+            <GrGithub
+              style={{
+                color: "#EEEEEE",
+                background: "#393E46",
+                fontSize: "xx-large",
+              }}
+            />
+          </a>
+          <a href="https://github.com/UCHEOGBU007/Little-lemon-Capstone-project.git">
+            <IoLogoRss style={{ color: "#00ADB5", fontSize: "xx-large" }} />
+          </a>
+        </div>
+      </div>
     </section>
   );
 }
