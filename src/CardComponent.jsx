@@ -170,7 +170,7 @@ export default function CardComponent() {
             padding: 15,
           }}
         >
-          <a href="https://little-lemon-capstone-project-one.vercel.app/">
+          <a href="https://github.com/UCHEOGBU007/Little-lemon-Capstone-project.git">
             <GrGithub
               style={{
                 color: "#EEEEEE",
@@ -179,7 +179,7 @@ export default function CardComponent() {
               }}
             />
           </a>
-          <a href="https://github.com/UCHEOGBU007/Little-lemon-Capstone-project.git">
+          <a href="https://little-lemon-capstone-project-one.vercel.app/">
             <IoLogoRss style={{ color: "#00ADB5", fontSize: "xx-large" }} />
           </a>
         </div>
