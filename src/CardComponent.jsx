@@ -152,7 +152,7 @@ export default function CardComponent() {
       <div className={styles.card}>
         <img
           className={styles.workimages}
-          src="/Littlelemon.png"
+          src="/Littlelemon1.png"
           alt="project picture "
         />
         <h4>Little lemon restaurant </h4>
