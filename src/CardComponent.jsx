@@ -152,7 +152,7 @@ export default function CardComponent() {
 
       {/* little lemon project  */}
 
-      <div className={styles.card}>
+      {/* <div className={styles.card}>
         <img
           className={styles.workimages}
           src="/Littlelemon1.png"
@@ -186,7 +186,7 @@ export default function CardComponent() {
             <IoLogoRss style={{ color: "#00ADB5", fontSize: "xx-large" }} />
           </a>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
