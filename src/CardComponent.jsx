@@ -156,7 +156,7 @@ export default function CardComponent() {
         <img
           className={styles.workimages}
           src="/Littlelemon1.png"
-          alt="project picture "
+          alt="project picture"
         />
         <h4>Little lemon restaurant </h4>
         <p>
