@@ -12,6 +12,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
+    // all components container
     <>
       <Header />
       <Mainsection />

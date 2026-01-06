@@ -6,7 +6,7 @@ import { GiSkills } from "react-icons/gi";
 import { FaProjectDiagram } from "react-icons/fa";
 
 export default function Projectskills() {
-  const [view, setView] = useState("project and skills"); // Initial state
+  const [view, setView] = useState(""); // Initial state
 
   return (
     <div className={styles.project} id="projects">
@@ -14,13 +14,13 @@ export default function Projectskills() {
         className={styles.skills}
         onClick={() => setView("skills")} // Set view to "skills"
       >
-        Skills <GiSkills />
+        Click here for Skills <GiSkills />
       </button>
       <button
         className={styles.projectstyle}
         onClick={() => setView("project")} // Set view to "project"
       >
-        Project <FaProjectDiagram />
+        Click here for Projects <FaProjectDiagram />
       </button>
       {/* Conditional rendering*/}
       <div style={{ color: "white" }}>
@@ -30,7 +30,6 @@ export default function Projectskills() {
           <SkillsComponent />
         ) : (
           <SkillsComponent />
-         
         )}
       </div>
     </div>

@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
+    // About me & introduction section
+
     <>
       <section id="About">
         <article className={styles.aboutme}>
@@ -22,20 +24,21 @@ export default function About() {
                 damping: 10,
               }}
             >
-              Hi!, I'm Leonard Ogbu, a passionate Frontend Web Developer
-              dedicated to crafting seamless, user-friendly web experiences.
-              With a strong foundation in HTML, CSS,JavaScript,Reactjs,Figma
-              principles,Git & GITHUB and Restful Api. I specialize in
-              responsive design, ensuring your website looks stunning on any
-              device,I am deeply committed to staying up-to-date with the latest
-              technologies and trends in web development, allowing me to
-              implement innovative solutions that align with modern standards.
-              Whether it's building intuitive user interfaces, optimizing
-              performance, or enhancing accessibility, I strive to create user
-              interface that leave a lasting impression. Collaboration excites
-              me, and I thrive on working with creative teams to transform ideas
-              into impactful digital experiences, using version control system
-              such "Git" Let's build something incredible together!.
+              My name is Uchenna Leonard Ogbu, a passionate Frontend Web
+              Developer with 3 years of hands on project, dedicated to crafting
+              seamless, user-friendly web experiences. With a strong foundation
+              in HTML5, CSS3,JavaScript,Reactjs,Figma principles,Git & GITHUB
+              and Restful Api. I specialize in responsive design, ensuring your
+              website looks stunning on any device,I am deeply committed to
+              staying up-to-date with the latest technologies and trends in web
+              development, allowing me to implement innovative solutions that
+              align with modern standards. Whether it's building intuitive user
+              interfaces, optimizing performance, or enhancing accessibility, I
+              strive to create user interface that leave a lasting impression.
+              Collaboration excites me, and I thrive on working with creative
+              teams to transform ideas into impactful digital experiences, using
+              version control system such "Git" Let's build something incredible
+              together!.
             </motion.p>
           </div>
         </article>

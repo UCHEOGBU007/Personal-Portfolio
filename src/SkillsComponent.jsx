@@ -8,6 +8,8 @@ import { FaReact } from "react-icons/fa";
 import { motion, spring } from "framer-motion";
 
 export default function SkillsComponent() {
+  // skills containerstarts here
+
   return (
     <motion.section
       className={styles.container}
@@ -16,6 +18,7 @@ export default function SkillsComponent() {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
+      {/* HTML5 SKILL TAG */}
       <motion.figure
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -25,6 +28,9 @@ export default function SkillsComponent() {
         <figcaption>HTML5</figcaption>
         <meter value="90" min="0" max="95"></meter>
       </motion.figure>
+
+      {/* CSS3 SKILL TAG */}
+
       <motion.figure
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -34,6 +40,8 @@ export default function SkillsComponent() {
         <figcaption>CSS3</figcaption>
         <meter value="80" min="0" max="95"></meter>
       </motion.figure>
+
+      {/* TAILWIND SKILL TAG  */}
       <motion.figure
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -43,16 +51,22 @@ export default function SkillsComponent() {
         <figcaption>TAILWIND</figcaption>
         <meter value="80" min="0" max="95"></meter>
       </motion.figure>
+
+      {/* JAVASCRIPT SKILL TAG */}
       <figure>
         <IoLogoJavascript style={{ fontSize: "5rem", color: "#F0DB4F" }} />
         <figcaption>JAVASCRIPT</figcaption>
         <meter value="70" min="0" max="95"></meter>
       </figure>
+
+      {/* REACT JS SKILL TAG */}
       <figure>
         <FaReact style={{ fontSize: "5rem", color: "#61DBFB" }} />
         <figcaption> REACT JS</figcaption>
         <meter value="65" min="0" max="95"></meter>
       </figure>
+
+      {/* GIT &GITHUB SKILL TAG */}
       <figure>
         <IoIosGitMerge style={{ fontSize: "5rem", color: "#F1502F" }} />
         <figcaption>GIT & GITHUB</figcaption>
