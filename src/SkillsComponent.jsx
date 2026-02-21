@@ -6,6 +6,9 @@ import { IoLogoJavascript } from "react-icons/io";
 import { IoIosGitMerge } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { motion, spring } from "framer-motion";
+import { SiExpo } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
 
 export default function SkillsComponent() {
   // skills containerstarts here
@@ -71,6 +74,27 @@ export default function SkillsComponent() {
         <IoIosGitMerge style={{ fontSize: "5rem", color: "#F1502F" }} />
         <figcaption>GIT & GITHUB</figcaption>
         <meter value="90" min="0" max="95"></meter>
+      </figure>
+      <figure>
+        <SiTypescript style={{ fontSize: "5rem", color: "#1c5b83" }} />
+        <figcaption>TypeScript</figcaption>
+        <meter value="50" min="0" max="95"></meter>
+      </figure>
+
+      <motion.figure
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2.5, delay: 1, y: 300, type: "spring" }}
+      >
+        <FaFigma style={{ fontSize: "5rem", color: "#98fbcb" }} />
+        <figcaption>UI&UX (Figma)</figcaption>
+        <meter value="80" min="0" max="95"></meter>
+      </motion.figure>
+
+      <figure>
+        <SiExpo style={{ fontSize: "5rem", color: "#ebe6e5" }} />
+        <figcaption>React-Native ( Expo)</figcaption>
+        <meter value="60" min="0" max="95"></meter>
       </figure>
     </motion.section>
   );

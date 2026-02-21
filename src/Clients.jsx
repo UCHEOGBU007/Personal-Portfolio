@@ -7,6 +7,7 @@ import { PiUserCheck } from "react-icons/pi";
 import { div } from "framer-motion/client";
 
 export default function Cients() {
+  //Testimonies styling arays.
   const responsive = {
     superLargeDesktop: {
       // Styling break points accordingly.
@@ -28,12 +29,14 @@ export default function Cients() {
   };
 
   return (
+    //Testimonies card container start here.
     <div className={Styles.testimonies}>
       <div className={Styles.testimonials}>
         <h5>Testimonials</h5>
       </div>
       <Carousel responsive={responsive}>
         <div>
+          {/* Customers served card */}
           <figure className={Styles.testimoniesdesign}>
             <div>
               <PiHandshakeThin />
@@ -44,6 +47,8 @@ export default function Cients() {
             </figcaption>
           </figure>
         </div>
+
+        {/* satified client card. */}
         <div>
           <figure className={Styles.testimoniesdesign}>
             <div>
@@ -55,13 +60,15 @@ export default function Cients() {
             </figcaption>
           </figure>
         </div>
+
+        {/* Years of meeting client needs. */}
         <div>
           <figure className={Styles.testimoniesdesign}>
             <div>
               <PiUserCheck />
             </div>
             <figcaption>
-              <span>2+</span>
+              <span>3+</span>
               <p>Years of Meeting Clients Needs.</p>
             </figcaption>
           </figure>

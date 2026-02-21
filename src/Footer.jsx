@@ -32,7 +32,7 @@ export default function Footer() {
           <a href="" className={styles.instagram}>
             <FaInstagram />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/uclo/">
             <CiLinkedin className={styles.linkedin} />
           </a>
           <a href="#">
