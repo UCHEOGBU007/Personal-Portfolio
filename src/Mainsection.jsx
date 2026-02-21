@@ -13,8 +13,12 @@ export default function Mainsection() {
           <div className={styles.articlescard}>
             {/* INTRODUCTION ABOUT  MY NICHE  */}
             <div className={styles.introcontainer}>
-              <h2 className={styles.cardintro}>Creative Front-end </h2>
-              <h2 className={styles.webdevelopment}>Web developer</h2>
+              <p style={{ color: "white", fontFamily: "cursive" }}>
+                <span style={{ color: "#00adb5" }}>My Name is</span> Uchenna
+                leonard Ogbu.
+              </p>
+              <h2 className={styles.cardintro}>A Creative Front-end </h2>
+              <h2 className={styles.webdevelopment}> Developer</h2>
             </div>
             <div className={styles.playcard1}>
               <a href="mailto:ucheogbu0070@gmail.com?subject=Needs your Service&body=I would like to hire you for a job">
