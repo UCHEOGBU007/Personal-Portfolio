@@ -1,4 +1,4 @@
-.project {
+/* .project {
   text-align: center;
   gap: 20px;
   background-color: #222831;
@@ -39,4 +39,78 @@
   color: #eeeeee;
   background-color: #00adb5;
   cursor: pointer;
+} */
+
+.sectionContainer {
+  padding: 60px 0;
+  background-color: #222831;
+  min-height: 80vh;
+}
+
+.tabWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.tabContainer {
+  display: flex;
+  background-color: #393e46;
+  padding: 6px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 173, 181, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tabButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 30px;
+  border: none;
+  background: none;
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+
+.tabButton span {
+  letter-spacing: 1px;
+}
+
+.activeTab {
+  background-color: #00adb5;
+  color: #222831;
+  box-shadow: 0 2px 10px rgba(0, 173, 181, 0.4);
+}
+
+.tabButton:hover:not(.activeTab) {
+  background-color: rgba(0, 173, 181, 0.1);
+  color: #00adb5;
+}
+
+.contentArea {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .tabButton {
+    padding: 10px 15px;
+    font-size: 0.85rem;
+  }
+
+  .tabButton span {
+    display: none; /* Only show icons on very small screens to save space */
+  }
+
+  /* Or keep text but stack them */
+  .tabContainer {
+    width: 90%;
+    justify-content: space-around;
+  }
 }

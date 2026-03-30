@@ -6,6 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
+import { GoProjectSymlink } from "react-icons/go";
 
 export default function Footer() {
   return (
@@ -22,6 +23,10 @@ export default function Footer() {
         <a href="#contact">
           <RiContactsFill style={{ marginRight: "0.5em" }} />
           CONTACT
+        </a>
+        <a href="#projects">
+          <GoProjectSymlink style={{ marginRight: "0.5em" }} />
+          Projects
         </a>
       </div>
       <div className={styles.address}>

@@ -3,58 +3,52 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    // About me & introduction section
-
-    <>
-      <section id="About">
-        <article className={styles.aboutme}>
-          <div className={styles.aboutcontainer}>
-            <h3>
-              About <span style={{ color: "#00adb5" }}>me</span>
-            </h3>
-            <motion.p
-              initial={{ opacity: 0, y: 300 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{
-                duration: 0.3,
-                delay: 1,
-                stiffness: 100,
-                type: "spring",
-                damping: 10,
-              }}
-            >
-              My name is Uchenna Leonard Ogbu, a passionate Frontend Web
-              Developer with 3 years of hands on project, dedicated to crafting
-              seamless, user-friendly web experiences. With a strong foundation
-              in HTML5, CSS3,JavaScript,Reactjs,Figma principles,Git & GITHUB
-              and Restful Api. I specialize in responsive design, ensuring your
-              website looks stunning on any device,I am deeply committed to
-              staying up-to-date with the latest technologies and trends in web
-              development, allowing me to implement innovative solutions that
-              align with modern standards. Whether it's building intuitive user
-              interfaces, optimizing performance, or enhancing accessibility, I
-              strive to create user interface that leave a lasting impression.
-              Collaboration excites me, and I thrive on working with creative
-              teams to transform ideas into impactful digital experiences, using
-              version control system such "Git" Let's build something incredible
-              together!.
-            </motion.p>
-          </div>
-        </article>
-        <div className={styles.workingcontainer}>
+    <section id="About" className={styles.aboutSection}>
+      <div className={styles.container}>
+        {/* Visual Content */}
+        <div className={styles.imageWrapper}>
           <img
-            className={styles.codinsymbol}
+            className={styles.doodle}
             src="/doodleitems.png"
-            alt="coding symbole"
+            alt="Coding elements"
           />
           <img
-            className={styles.illustration2}
+            className={styles.illustration}
             src="/workinging.png"
-            alt=" working illustration"
+            alt="Developer working illustration"
           />
         </div>
-      </section>
-    </>
+        {/* Text Content */}
+        <article className={styles.content}>
+          <h3 className={styles.title}>
+            About <span className={styles.highlight}>me</span>
+          </h3>
+
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className={styles.description}
+          >
+            My name is <strong>Uchenna Leonard Ogbu</strong>, a passionate
+            Frontend Web and mobile app Developer with 3 years of hands-on
+            experience. I specialize in crafting seamless, user-friendly web
+            experiences using{" "}
+            <strong>
+              Reactjs,React-Native, JavaScript (ES6+),Typescript,Tailwindcss and
+              Figma
+            </strong>
+            .
+            <br />
+            <br />
+            I’m dedicated to staying ahead of modern trends, focusing on
+            responsive design, performance optimization, and accessibility. I
+            thrive in collaborative environments, using Git to turn creative
+            ideas into impactful digital realities.
+          </motion.p>
+        </article>
+      </div>
+    </section>
   );
 }

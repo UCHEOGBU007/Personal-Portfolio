@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { BsFillSendFill } from "react-icons/bs"; // Import the "Send" icon
-import styles from "./Contact.module.css"; // Import CSS for styling
-import { motion } from "framer-motion"; // Import Framer Motion for animations
-import { useForm, ValidationError } from "@formspree/react"; // Import Formspree tools
+import { BsFillSendFill } from "react-icons/bs";
+import styles from "./Contact.module.css";
+import { motion } from "framer-motion";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contactform() {
   // Form state management
