@@ -128,20 +128,12 @@
 // }
 
 import styles from "./SkillsComponent.module.css";
-import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaReact, FaFigma } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoIosGitMerge } from "react-icons/io";
-<<<<<<< HEAD
 import { SiTypescript, SiExpo } from "react-icons/si";
 import { motion } from "framer-motion";
-=======
-import { FaReact } from "react-icons/fa";
-import { motion, spring } from "framer-motion";
-import { SiExpo } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
-import { FaFigma } from "react-icons/fa";
->>>>>>> 3269553e709fa1ce18a8f891800f237cd68e4002
 
 export default function SkillsComponent() {
   return (
@@ -216,7 +208,6 @@ export default function SkillsComponent() {
         <IoIosGitMerge style={{ fontSize: "5rem", color: "#F1502F" }} />
         <figcaption>GIT & GITHUB</figcaption>
         <meter value="90" min="0" max="95"></meter>
-<<<<<<< HEAD
       </motion.figure>
 
       {/* Typescript SKILL TAG */}
@@ -230,40 +221,27 @@ export default function SkillsComponent() {
         <meter value="50" min="0" max="95"></meter>
       </motion.figure>
 
-      {/* React-Native SKILL TAG */}
+      {/* UI & UX Figma SKILL TAG */}
       <motion.figure
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.8, type: "spring" }}
       >
-        <SiExpo style={{ fontSize: "5rem", color: "#ffff" }} />
-        <figcaption>React-Native (IOS & Android)</figcaption>
-        <meter value="70" min="0" max="100"></meter>
-      </motion.figure>
-=======
-      </figure>
-      <figure>
-        <SiTypescript style={{ fontSize: "5rem", color: "#1c5b83" }} />
-        <figcaption>TypeScript</figcaption>
-        <meter value="50" min="0" max="95"></meter>
-      </figure>
-
-      <motion.figure
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2.5, delay: 1, y: 300, type: "spring" }}
-      >
         <FaFigma style={{ fontSize: "5rem", color: "#98fbcb" }} />
-        <figcaption>UI&UX (Figma)</figcaption>
+        <figcaption>UI & UX (Figma)</figcaption>
         <meter value="80" min="0" max="95"></meter>
       </motion.figure>
 
-      <figure>
+      {/* React-Native SKILL TAG */}
+      <motion.figure
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.9, type: "spring" }}
+      >
         <SiExpo style={{ fontSize: "5rem", color: "#ebe6e5" }} />
-        <figcaption>React-Native ( Expo)</figcaption>
+        <figcaption>React-Native (Expo)</figcaption>
         <meter value="60" min="0" max="95"></meter>
-      </figure>
->>>>>>> 3269553e709fa1ce18a8f891800f237cd68e4002
+      </motion.figure>
     </motion.section>
   );
 }
