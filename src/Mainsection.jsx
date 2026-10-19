@@ -18,7 +18,7 @@ export default function Mainsection() {
                 leonard Ogbu.
               </p>
               <h2 className={styles.cardintro}>A Creative Software</h2>
-              <h2 className={styles.webdevelopment}> Developer</h2>
+              <h2 className={styles.webdevelopment}> Engineer</h2>
             </div>
             <div className={styles.playcard1}>
               <a href="mailto:ucheogbu0070@gmail.com?subject=Needs your Service&body=I would like to hire you for a job">

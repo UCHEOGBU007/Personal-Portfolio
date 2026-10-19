@@ -31,9 +31,9 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className={styles.description}
           >
-            My name is <strong>Uchenna Leonard Ogbu</strong>, a passionate
-            software developer with years of hands-on experience. I specialize
-            in crafting seamless, user-friendly software experiences using{" "}
+            A passionate software engineer with years of hands-on experience. I
+            specialize in crafting seamless, user-friendly software experiences
+            using{" "}
             <strong>
               Reactjs,React-Native, JavaScript (ES6+),Typescript,Tailwindcss,
               Node js , express js , Supabase and Figma
