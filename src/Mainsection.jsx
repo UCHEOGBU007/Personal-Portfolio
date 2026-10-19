@@ -17,7 +17,7 @@ export default function Mainsection() {
                 <span style={{ color: "#00adb5" }}>My Name is</span> Uchenna
                 leonard Ogbu.
               </p>
-              <h2 className={styles.cardintro}>A Creative Front-end </h2>
+              <h2 className={styles.cardintro}>A Creative Software</h2>
               <h2 className={styles.webdevelopment}> Developer</h2>
             </div>
             <div className={styles.playcard1}>
@@ -27,12 +27,12 @@ export default function Mainsection() {
                 </button>
               </a>
               {/* DOWNLOAD RESUME FILE */}
-              <a href="/Resume2.pdf" download>
+              {/* <a href="/Resume2.pdf" download>
                 <button className={styles.button2}>
                   {" "}
                   Download Resume <FaDownload />
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
           {/*  IMPORTED CODIN ICONS */}

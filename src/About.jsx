@@ -32,12 +32,11 @@ export default function About() {
             className={styles.description}
           >
             My name is <strong>Uchenna Leonard Ogbu</strong>, a passionate
-            Frontend Web and mobile app Developer with 3 years of hands-on
-            experience. I specialize in crafting seamless, user-friendly web
-            experiences using{" "}
+            software developer with years of hands-on experience. I specialize
+            in crafting seamless, user-friendly software experiences using{" "}
             <strong>
-              Reactjs,React-Native, JavaScript (ES6+),Typescript,Tailwindcss and
-              Figma
+              Reactjs,React-Native, JavaScript (ES6+),Typescript,Tailwindcss,
+              Node js , express js , Supabase and Figma
             </strong>
             .
             <br />
