@@ -151,7 +151,7 @@ export default function SkillsComponent() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <FaHtml5 style={{ fontSize: "5rem", color: "#E4080A" }} />
-        <figcaption>HTML5</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>HTML5</figcaption>
         <meter value="90" min="0" max="95"></meter>
       </motion.figure>
 
@@ -162,7 +162,7 @@ export default function SkillsComponent() {
         transition={{ duration: 0.8, delay: 0.2, type: "spring" }}
       >
         <FaCss3 style={{ fontSize: "5rem", color: "#264de4" }} />
-        <figcaption>CSS3</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>CSS3</figcaption>
         <meter value="80" min="0" max="95"></meter>
       </motion.figure>
 
@@ -173,7 +173,7 @@ export default function SkillsComponent() {
         transition={{ duration: 0.8, delay: 0.3, type: "spring" }}
       >
         <RiTailwindCssFill style={{ fontSize: "5rem", color: "#06b6d4" }} />
-        <figcaption>TAILWIND</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>TAILWIND</figcaption>
         <meter value="80" min="0" max="95"></meter>
       </motion.figure>
 
@@ -184,7 +184,7 @@ export default function SkillsComponent() {
         transition={{ duration: 0.8, delay: 0.4, type: "spring" }}
       >
         <IoLogoJavascript style={{ fontSize: "5rem", color: "#F0DB4F" }} />
-        <figcaption>JAVASCRIPT</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>JAVASCRIPT</figcaption>
         <meter value="70" min="0" max="95"></meter>
       </motion.figure>
 
@@ -195,7 +195,7 @@ export default function SkillsComponent() {
         transition={{ duration: 0.8, delay: 0.5, type: "spring" }}
       >
         <FaReact style={{ fontSize: "5rem", color: "#61DBFB" }} />
-        <figcaption>REACT JS</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>REACT JS</figcaption>
         <meter value="65" min="0" max="95"></meter>
       </motion.figure>
 
@@ -206,7 +206,7 @@ export default function SkillsComponent() {
         transition={{ duration: 0.8, delay: 0.6, type: "spring" }}
       >
         <IoIosGitMerge style={{ fontSize: "5rem", color: "#F1502F" }} />
-        <figcaption>GIT & GITHUB</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>GIT & GITHUB</figcaption>
         <meter value="90" min="0" max="95"></meter>
       </motion.figure>
 
@@ -228,7 +228,7 @@ export default function SkillsComponent() {
         transition={{ duration: 0.8, delay: 0.8, type: "spring" }}
       >
         <FaFigma style={{ fontSize: "5rem", color: "#98fbcb" }} />
-        <figcaption>UI & UX (Figma)</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>UI & UX (Figma)</figcaption>
         <meter value="80" min="0" max="95"></meter>
       </motion.figure>
 
@@ -239,7 +239,9 @@ export default function SkillsComponent() {
         transition={{ duration: 0.8, delay: 0.9, type: "spring" }}
       >
         <SiExpo style={{ fontSize: "5rem", color: "#ebe6e5" }} />
-        <figcaption>React-Native (Expo)</figcaption>
+        <figcaption style={{ color: "#eeeeee" }}>
+          React-Native (Expo)
+        </figcaption>
         <meter value="60" min="0" max="95"></meter>
       </motion.figure>
     </motion.section>
