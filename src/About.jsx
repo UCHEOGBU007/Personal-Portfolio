@@ -11,11 +11,13 @@ export default function About() {
             className={styles.doodle}
             src="/doodleitems.png"
             alt="Coding elements"
+            loading="lazy"
           />
           <img
             className={styles.illustration}
             src="/workinging.png"
             alt="Developer working illustration"
+            loading="lazy"
           />
         </div>
         {/* Text Content */}
@@ -33,10 +35,11 @@ export default function About() {
           >
             A passionate software engineer with years of hands-on experience. I
             specialize in crafting seamless, user-friendly software experiences
-            using{" "}
+            using modern technologies and best practices. My expertise spans
+            across:{" "}
             <strong>
-              Reactjs,React-Native, JavaScript (ES6+),Typescript,Tailwindcss,
-              Node js , express js , Supabase and Figma
+              Html5, Css3 , Reactjs, React-Native, JavaScript (ES6+),
+              Typescript, Tailwindcss, Node js , express js , Supabase and Figma
             </strong>
             .
             <br />
